@@ -2,7 +2,7 @@ import openai
 import telebot
 import uuid
 import os
-# from pydub import AudioSegment
+from pydub import AudioSegment
 
 
 token_bot = open('gpt token tg bot', 'r').read()
